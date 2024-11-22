@@ -57,7 +57,6 @@ $$x_{\text{hard}}(u) = \begin{cases} u, & \text{if } |u| > \text{threshold} \\ 0
 ```
 Image-Denoising/
 ├── README.md                 # Project description and instructions
-├── LICENSE                   # Licensing information
 ├── data/                     # Input image datasets (e.g., Barbara, Lenna, Peppers)
 │   ├── Denoise.mat           # Noisy image data for processing
 ├── src/                      # MATLAB scripts
