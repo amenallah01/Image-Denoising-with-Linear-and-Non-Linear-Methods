@@ -78,6 +78,3 @@ Image-Denoising/
 3. **Benchmarking**:
    - Compare linear and non-linear denoising methods for different noise types.
 
----
-
-Let me know if you'd like further customizations, additional mathematical formulations, or script-specific details!
