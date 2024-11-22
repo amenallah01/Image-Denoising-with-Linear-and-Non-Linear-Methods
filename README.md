@@ -63,31 +63,12 @@ Image-Denoising/
 ├── src/                      # MATLAB scripts
 │   ├── wiener_filter.m       # Wiener filter implementation
 │   ├── wavelet_denoising.m   # Wavelet-based denoising methods
-│   ├── visualization.m       # Visualization of results
-│   └── analysis.m            # Performance evaluation (e.g., PSNR, SSIM)
-├── results/                  # Output images and plots
-└── docs/                     # Documentation and reports
+│   └── Markov_Field.m        # Markov Random Field denoising
+
 ```
 
 ---
 
-## **Setup and Execution**
-
-### **Prerequisites**
-- MATLAB (R2021a or newer) with the Wavelet and Image Processing Toolboxes.
-
-### **Steps to Run**:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/Image-Denoising.git
-   cd Image-Denoising
-   ```
-2. Place the noisy image dataset (`Denoise.mat`) in the `data/` folder.
-3. Run the corresponding MATLAB scripts:
-   - `wiener_filter.m` for linear denoising.
-   - `wavelet_denoising.m` for wavelet-based noise reduction.
-
----
 
 ## **Applications**
 1. **Image Processing**:
